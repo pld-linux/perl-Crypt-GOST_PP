@@ -6,7 +6,8 @@ Summary(pl):	Modu³ Perla Crypt::GOST_PP - algorytm kodowania GOST
 Name:		perl-Crypt-GOST_PP
 Version:	1.10
 Release:	2
-License:	Artistic or GPL
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	4d654c309c3ca199b7aa69151364bea6
