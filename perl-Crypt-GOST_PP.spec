@@ -5,12 +5,12 @@ Summary:	Crypt::GOST_PP Perl module - the GOST Encryption Algorithm
 Summary(pl):	Modu³ Perla Crypt::GOST_PP - algorytm kodowania GOST
 Name:		perl-Crypt-GOST_PP
 Version:	1.10
-Release:	1
+Release:	2
 License:	Artistic or GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 BuildRequires:	perl >= 5.6
-BuildRequires:	rpm-perlprov >= 3.0.3-16
+BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -28,7 +28,8 @@ opracowanego w by³ym Zwi±zku Radzieckim.
 %setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
-%{__perl} Makefile.PL
+%{__perl} Makefile.PL \
+	INSTALLDIRS=vendor 
 %{__make}
 %{__make} test
 
@@ -44,5 +45,5 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc Changes README
-%{perl_sitelib}/Crypt/GOST_PP.pm
+%{perl_vendorlib}/Crypt/GOST_PP.pm
 %{_mandir}/man3/*
