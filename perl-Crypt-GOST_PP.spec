@@ -1,6 +1,6 @@
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Crypt
-%define	pnam	GOST_PP
+%define		pdir	Crypt
+%define		pnam	GOST_PP
 Summary:	Crypt::GOST_PP Perl module - the GOST Encryption Algorithm
 Summary(pl):	Modu³ Perla Crypt::GOST_PP - algorytm kodowania GOST
 Name:		perl-Crypt-GOST_PP
