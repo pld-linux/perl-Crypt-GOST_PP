@@ -30,7 +30,7 @@ opracowanego w by³ym Zwi±zku Radzieckim.
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 %{__make} test
 
