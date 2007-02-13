@@ -2,7 +2,7 @@
 %define		pdir	Crypt
 %define		pnam	GOST_PP
 Summary:	Crypt::GOST_PP Perl module - the GOST Encryption Algorithm
-Summary(pl.UTF-8):   Moduł Perla Crypt::GOST_PP - algorytm kodowania GOST
+Summary(pl.UTF-8):	Moduł Perla Crypt::GOST_PP - algorytm kodowania GOST
 Name:		perl-Crypt-GOST_PP
 Version:	1.10
 Release:	3
