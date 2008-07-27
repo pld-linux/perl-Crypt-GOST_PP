@@ -5,7 +5,7 @@ Summary:	Crypt::GOST_PP Perl module - the GOST Encryption Algorithm
 Summary(pl.UTF-8):	Moduł Perla Crypt::GOST_PP - algorytm kodowania GOST
 Name:		perl-Crypt-GOST_PP
 Version:	1.10
-Release:	3
+Release:	4
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
